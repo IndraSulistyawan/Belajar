@@ -1,0 +1,14 @@
+const countDown = start => {
+  console.log(start);
+  if(start > 0) countDown(start-1);
+};
+
+countDown(10);
+
+const countUP = end => {
+    for(i = 1; i < end; i++){
+        console.log(i)
+    }
+
+}
+countUP(10)
